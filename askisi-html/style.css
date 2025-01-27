@@ -45,7 +45,7 @@ footer {
 }
 
 main {
-    padding: 20px;
+    padding: auto;
 }
 
 form {
@@ -89,8 +89,8 @@ form button:hover {
 .perigrama {
     border-collapse: collapse;
     width: 100%;
-    padding: 10px;
-    margin: 10px;
+    padding: auto;
+    margin: auto;
     border: 2px solid rgba(0, 0, 0, 1);
     background-color: rgba(0, 0, 0, 0.7);
     padding-bottom: 60px;
@@ -185,6 +185,7 @@ form button:hover {
 #carouselExampleCaptions .carousel-indicators button {
     width: 10px;
     height: 10px;
+    visibility: hidden;
 }
 
 #carouselExampleCaptions .carousel-control-prev-icon,

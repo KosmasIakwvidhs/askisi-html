@@ -26,38 +26,38 @@
         <section>
             <div class="perigrama">
                 <center>
-                    <h1>Φόρμα Επικοινωνίας</h1>
+                    <h1>Contact Form</h1>
                 </center>
                 <form action="submit_form.php" method="post">
-                    <label for="name">Όνομα (Υποχρεωτικό):</label>
+                    <label for="name">Name (Required):</label>
                     <input type="text" id="name" name="name" required>
 
-                    <label for="email">Email (Υποχρεωτικό, έλεγχος μορφής):</label>
+                    <label for="email">Email (Required):</label>
                     <input type="email" id="email" name="email" required>
 
-                    <label for="subject">Θέμα (Υποχρεωτικό):</label>
+                    <label for="subject">About (Required):</label>
                     <input type="text" id="subject" name="subject" required>
 
-                    <label for="message">Το μήνυμά σας (ελάχιστο 15 χαρακτήρες):</label>
+                    <label for="message">Your message (15 characters minimum):</label>
                     <textarea id="message" name="message" required minlength="15"></textarea>
 
-                    <label for="age">Ηλικία (ελάχιστη 18):</label>
+                    <label for="age">Age (minimum 18):</label>
                     <input type="number" id="age" name="age" required min="18">
 
                     <br>
 
-                    <label for="male">Άνδρας</label>
-                    <input class="koumpaki" type="radio" id="male" name="Gender" value="male">
+                    <label for="male">Male</label>
+                    <input class="koumpaki"type="radio" id="male" name="Gender" value="male">
 
-                    <label for="female">Γυναίκα</label>
+                    <label for="female">Female</label>
                     <input class="koumpaki" type="radio" id="female" name="Gender" value="female">
 
-                    <label for="other">Άλλο</label>
+                    <label for="other">Other</label>
                     <input class="koumpaki" type="radio" id="other" name="Gender" value="other">
 
                     <br><br>
 
-                    <center><button type="submit" >Αποστολή Μηνύματος</button></center>
+                    <center><button type="submit" >Submit message</button></center>
                 </form>
             </div>
         </section>
